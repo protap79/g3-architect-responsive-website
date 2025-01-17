@@ -106,7 +106,14 @@ main > section {
 /* media query */
 @media screen and (max-width: 576px) {
   .navbar,
-  .nav-links {
+  .nav-links,
+  .teams {
     flex-direction: column;
+  }
+  .img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .our-feature {
+    margin-left: 20px;
   }
 }
